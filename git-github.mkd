@@ -1,0 +1,4 @@
+# Comandos Basicos para usar
+- git config --global user.name "xxxx" //se pone en nombre de usuario a usar
+- git config --global user.email "xxxx" //se pone el nombre de email a usar
+- git init //para comenzar un proyecto y subirlo a git
