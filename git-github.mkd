@@ -1,4 +1,13 @@
-# Comandos Basicos para usar
+## Comandos para configurar git
 - git config --global user.name "xxxx" //se pone en nombre de usuario a usar
 - git config --global user.email "xxxx" //se pone el nombre de email a usar
+
+## Comandos para usar  el dia a dia 
 - git init //para comenzar un proyecto y subirlo a git
+- git status // para realizar una consulta, para ver que modificaciones hay en los archivos
+- git add + nombre // para agregar el archivo o modificacion que quiero 
+- git add . // agrego todas las modificaciones de una
+- git commit -m "descripcion de lo que se trabajo" // realizo un comentario para que otros sepan que se modificó
+
+## Comandos para manejar las ramas (branch)
+- git branch -m // para cambiar el nombre a la rama 
