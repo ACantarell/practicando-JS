@@ -16,3 +16,4 @@
 - git log // para ver quien hizo las maodificaciones
 - git checkout + nombre // volver al commit anterior
 - git reset // para resetar e ir para atras en los commit
+- touch gitignore // se usa para ignorar un archivo y no se sube
