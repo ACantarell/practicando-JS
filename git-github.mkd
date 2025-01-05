@@ -8,7 +8,11 @@
 - git add + nombre // para agregar el archivo o modificacion que quiero 
 - git add . // agrego todas las modificaciones de una
 - git commit -m "descripcion de lo que se trabajo" // realizo un comentario para que otros sepan que se modificó
-- git log // para ver quien hizo las maodificaciones
 
 ## Comandos para manejar las ramas (branch)
 - git branch -m // para cambiar el nombre a la rama 
+
+## Comandos menos usados
+- git log // para ver quien hizo las maodificaciones
+- git checkout + nombre // volver al commit anterior
+- git reset // para resetar e ir para atras en los commit
