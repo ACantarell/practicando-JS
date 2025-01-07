@@ -13,6 +13,8 @@
 - git branch -m // para cambiar el nombre a la rama
 - git branch + nueva-rama // Crea una nueva
 - git switch + nueva-rama // Cambia a una rama existente 
+- git merge  + rama a combinar // combinar ramas
+- git branch -d nombre-rama // eliminar rama
 - git checkout + nombre // Movernos por las ramas (pero no es recomendado)
 
 ## Comandos menos usados
