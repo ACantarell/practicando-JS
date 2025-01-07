@@ -1,3 +1,4 @@
+
 ## Comandos para configurar git
 - git config --global user.name "xxxx" //se pone en nombre de usuario a usar
 - git config --global user.email "xxxx" //se pone el nombre de email a usar
