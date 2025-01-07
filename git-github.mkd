@@ -10,10 +10,38 @@
 - git commit -m "descripcion de lo que se trabajo" // realizo un comentario para que otros sepan que se modificó
 
 ## Comandos para manejar las ramas (branch)
-- git branch -m // para cambiar el nombre a la rama 
+- git branch -m // para cambiar el nombre a la rama
+- git branch + nueva-rama // Crea una nueva
+- git switch + nueva-rama // Cambia a una rama existente 
+- git checkout + nombre // Movernos por las ramas (pero no es recomendado)
 
 ## Comandos menos usados
 - git log // para ver quien hizo las maodificaciones
-- git checkout + nombre // volver al commit anterior
-- git reset // para resetar e ir para atras en los commit
+- git reset // para resetar y no tener en cuenta las cosas hechas
 - touch gitignore // se usa para ignorar un archivo y no se sube
+- git diff // se visualiza lo que se cambio sin hacer el commit
+
+---------------------------------------------------------------
+
+| **Categoría**             | **Comando**                          | **Descripción**                                                                 |
+|---------------------------|--------------------------------------|---------------------------------------------------------------------------------|
+| **Inicializar/Clonar**    | `git init`                          | Inicializa un nuevo repositorio en el directorio actual.                        |
+|                           | `git clone <URL>`                   | Clona un repositorio existente desde una URL.                                   |
+| **Estado e información**  | `git status`                        | Muestra el estado del repositorio: cambios rastreados, no rastreados, y preparados. |
+|                           | `git log`                           | Muestra el historial de commits.                                               |
+| **Preparar cambios**      | `git add archivo.txt`               | Agrega un archivo al área de preparación.                                       |
+|                           | `git add .`                         | Agrega todos los archivos modificados al área de preparación.                   |
+| **Guardar cambios (commit)**| `git commit -m "mensaje"`          | Crea un commit con los cambios preparados.                                      |
+| **Sincronización**        | `git push`                          | Sube los cambios locales al repositorio remoto.                                 |
+|                           | `git pull`                          | Descarga y fusiona los cambios del repositorio remoto.                          |
+| **Trabajar con ramas**    | `git branch nueva-rama`             | Crea una nueva rama.                                                            |
+|                           | `git switch nueva-rama`             | Cambia a una rama existente (alternativa a `git checkout`).                     |
+|                           | `git merge rama-a-combinar`         | Combina los cambios de una rama en la actual.                                   |
+| **Revertir cambios**      | `git restore archivo.txt`           | Deshace cambios en un archivo que no están preparados (no stageados).           |
+|                           | `git restore --staged archivo.txt`  | Elimina un archivo del área de preparación.                                     |
+|                           | `git revert <hash_commit>`          | Crea un nuevo commit que deshace un commit anterior.                            |
+| **Eliminar archivos/ramas**| `git rm archivo.txt`               | Elimina un archivo del repositorio y del disco.                                 |
+|                           | `git branch -d nombre-rama`         | Elimina una rama local.                                                         |
+|                           | `git push origin --delete nombre-rama` | Elimina una rama remota.                                                       |
+| **Avanzados (menos usados)**| `git rebase rama-base`             | Reescribe el historial de commits para integrar cambios.                        |
+|                           | `git mergetool`                     | Usa una herramienta para resolver conflictos de fusión.                         |
