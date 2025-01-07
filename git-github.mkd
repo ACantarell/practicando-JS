@@ -25,15 +25,15 @@
 
 ---------------------------------------------------------------
 
-| **Categoría**             | **Comando**                          | **Descripción**                                                                 |
-|---------------------------|--------------------------------------|---------------------------------------------------------------------------------|
+| **Categoría**             | **Comando**                          | **Descripción**                                                                |
+|---------------------------|--------------------------------------|--------------------------------------------------------------------------------|
 | **Inicializar/Clonar**    | `git init`                          | Inicializa un nuevo repositorio en el directorio actual.                        |
 |                           | `git clone <URL>`                   | Clona un repositorio existente desde una URL.                                   |
 | **Estado e información**  | `git status`                        | Muestra el estado del repositorio: cambios rastreados, no rastreados, y preparados. |
-|                           | `git log`                           | Muestra el historial de commits.                                               |
+|                           | `git log`                           | Muestra el historial de commits.                                                |
 | **Preparar cambios**      | `git add archivo.txt`               | Agrega un archivo al área de preparación.                                       |
 |                           | `git add .`                         | Agrega todos los archivos modificados al área de preparación.                   |
-| **Guardar cambios (commit)**| `git commit -m "mensaje"`          | Crea un commit con los cambios preparados.                                      |
+| **Guardar cambios (commit)**| `git commit -m "mensaje"`          | Crea un commit con los cambios preparados.                                     |
 | **Sincronización**        | `git push`                          | Sube los cambios locales al repositorio remoto.                                 |
 |                           | `git pull`                          | Descarga y fusiona los cambios del repositorio remoto.                          |
 | **Trabajar con ramas**    | `git branch nueva-rama`             | Crea una nueva rama.                                                            |
@@ -44,6 +44,6 @@
 |                           | `git revert <hash_commit>`          | Crea un nuevo commit que deshace un commit anterior.                            |
 | **Eliminar archivos/ramas**| `git rm archivo.txt`               | Elimina un archivo del repositorio y del disco.                                 |
 |                           | `git branch -d nombre-rama`         | Elimina una rama local.                                                         |
-|                           | `git push origin --delete nombre-rama` | Elimina una rama remota.                                                       |
-| **Avanzados (menos usados)**| `git rebase rama-base`             | Reescribe el historial de commits para integrar cambios.                        |
+|                           | `git push origin --delete nombre-rama` | Elimina una rama remota.                                                     |
+| **Avanzados (menos usados)**| `git rebase rama-base`             | Reescribe el historial de commits para integrar cambios.                       |
 |                           | `git mergetool`                     | Usa una herramienta para resolver conflictos de fusión.                         |
