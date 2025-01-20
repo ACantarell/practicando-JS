@@ -12,5 +12,7 @@ pero
 mas de una linea
 */ 
 
-console.log(4)
 console.log("4")
+console.log(4)
+console.log(5*5)
+
